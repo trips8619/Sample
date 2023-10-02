@@ -12,7 +12,7 @@ int main()
 		s=s+r*r*r;
 		n=n/10;
 	}
-	if (s!=t)
+	if (s==t)
 		printf("Armstrong");
 	else
 		printf("Not Armstrong");
